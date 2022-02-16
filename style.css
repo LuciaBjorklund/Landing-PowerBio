@@ -6,6 +6,23 @@
 	font-family: 'Roboto', sans-serif;
 }
 
+.header {
+	background-color: #fafafa;
+	height: 100px;
+	width: 500px;
+	box-shadow: 10px 5px 10px rgb(143, 143, 143);
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	border-radius: 50px;
+}
+
+.logo-header {
+	width: auto;
+	height: 70px;
+	
+}
+
 .offer__title, .form__title, .form__button {
 	font-family: 'Open Sans', sans-serif;
 	font-weight: bold;
@@ -37,7 +54,7 @@ body {
 }
 
 .offer__image {
-	max-height: 40px;
+	max-height: 70px;
 	margin-bottom: 10px;
 }
 
